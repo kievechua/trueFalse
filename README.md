@@ -14552,4 +14552,4 @@
         "method": "typeof $1 === 'function'",
         "result": false
     }
-]```
+]	```
