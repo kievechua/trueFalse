@@ -80,7 +80,7 @@ console.log(result);
 
 outputFilename = 'README.md';
 
-fs.writeFile(outputFilename, '```json' + JSON.stringify(result, null, 4) + '\n```', function(err) {
+fs.writeFile(outputFilename, '```json\n' + JSON.stringify(result, null, 4) + '\n```', function(err) {
     if (err) {
         console.log('Error', err);
     } else {

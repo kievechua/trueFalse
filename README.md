@@ -1,4 +1,5 @@
-```json[
+```json
+[
     {
         "value": "true",
         "method": "==",
@@ -14552,4 +14553,5 @@
         "method": "typeof $1 === 'function'",
         "result": false
     }
-]	```
+]
+```
