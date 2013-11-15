@@ -1,0 +1,11 @@
+{
+  "name": "empty",
+  "version": "0.1.0",
+  "description": "Libraries for all possibility",
+  "main": "empty.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kieve Chua",
+  "license": "MIT"
+}
