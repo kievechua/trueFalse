@@ -78,9 +78,9 @@ for (i = 0, maxValue = values.length; i < maxValue; i++) {
 // Output
 console.log(result);
 
-outputFilename = 'README.md';
+outputFilename = 'result.json';
 
-fs.writeFile(outputFilename, '```json' + JSON.stringify(result, null, 4) + '```', function(err) {
+fs.writeFile(outputFilename, JSON.stringify(result, null, 4), function(err) {
     if (err) {
         console.log('Error', err);
     } else {
